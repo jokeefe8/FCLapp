@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    pg (0.21.0)
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
@@ -8,15 +9,14 @@ GEM
       rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    sqlite3 (1.3.13)
     tilt (2.0.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  pg
   sinatra
-  sqlite3
 
 BUNDLED WITH
    1.14.6
